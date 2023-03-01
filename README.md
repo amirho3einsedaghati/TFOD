@@ -1,7 +1,7 @@
 # Tensorflow Object Detection Walkthrough
 <p>In this Notebook, We should use the Tensorflow Object Detection API and a pre-trained model ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8 to implement our custom object detection model. I use all of these to train an object detection model that can detect some Sign Language objects like Hello, ThumbsUp, ThumbsDown, ThankYou, and LiveLong, but maybe you want to use these to train some other objects.
 this Notebook is done thanks to the different sources on the internet.
-<img src="https://photos.google.com/photo/AF1QipNfgdhf-vrBIKTefBBidAPvdP373WQ29fmMXBZP">
+<img src="[![1.jpg](https://i.postimg.cc/8crWt592/1.jpg)](https://postimg.cc/N2B50ggD)">
 
 ## Steps
 <br />
@@ -42,6 +42,7 @@ If you didn't receive __ok__ in the last line, You should follow the next cells 
 <br /> <br/>
 <b>Step 9.</b> Once you get to section **6. Train the pre-trained model by using train records**, inside the Notebook <a href="https://github.com/amirho3einsedaghati/TFOD/blob/master/2.%20Training%20and%20Detection.ipynb">2. Training and Detection.ipynb</a>, you can simply train the pre-trained model either inside the very Notebook or in the cmd or terminal window by running the content of the **command** variable.
 if you trained the pre-trained model inside the cmd or terminal window, you can see loss metrics and training time per step. 
+<br /> <br/>
 <br />
 <b>Step 10.</b> You can optionally evaluate your model inside of Tensorboard. Once your custom-trained model has been trained and you should run the evaluation command under Step 7, to see the mean average precision(mAP), mean average recall(mAR), and the other performance metrics, or you can optionally evaluate your model inside the Tensorboard. to do this, you should navigate the following path. 
 <pre> cd Tensorlfow/workspace/models/CUSTOM_MODEL_NAME/eval</pre> 
