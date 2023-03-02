@@ -53,6 +53,7 @@ As you can see in this image, you can change the number of training steps to tra
 
 to do this, you should first navigate the following path 
 <pre> cd Tensorlfow/workspace/models/CUSTOM_MODEL_NAME/eval</pre> 
+in my case, this path is <pre> cd Tensorlfow/workspace/models/sign_language_2nd_tuned/eval</pre>
 ,then open Tensorboard with the following command.
 <pre>tensorboard --logdir=. </pre>
 Tensorboard will be accessible through your browser and you will be able to see evaluation metrics.
