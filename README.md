@@ -1,25 +1,25 @@
 # Tensorflow Object Detection Walkthrough
-<p>In this Notebook, You should use the <b>Tensorflow Object Detection API</b> and a pre-trained model <b>ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8</b> to implement our custom object detection model. I used all of these to train an object detection model that can detect some Sign Language objects like Hello, ThumbsUp, ThumbsDown, ThankYou, and LiveLong, but Maybe you want to use this to train your intended objects.
+<p>In this Notebook, You should follow the <b>Tensorflow Object Detection API</b> and a pre-trained model <b>ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8</b> to implement your custom object detection model. I used all of these to train an object detection model that can detect some Sign Language objects like Hello, ThumbsUp, ThumbsDown, ThankYou, and LiveLong, but Maybe you want to use this to train your intended objects.
 This Notebook is done thanks to the different sources on the internet.
 <br /><br/>
 <img src="https://i.postimg.cc/zXSzghG9/1.jpg">
 
 ## Steps
 <br />
-<b>Step 1.</b> Clone this repository: https://github.com/amirho3einsedaghati/TFOD
+<b>Step 1.</b> Clone this repository: https://github.com/amirho3einsedaghati/TFOD.
 <br/><br/>
-<b>Step 2.</b> Create a new virtual environment 
+<b>Step 2.</b> Create a new virtual environment.
 <pre>
 python -m venv tfod
 </pre> 
 <br/>
-<b>Step 3.</b> Activate the virtual environment
+<b>Step 3.</b> Activate the virtual environment.
 <pre>
 source tfod/bin/activate # Linux
 .\tfod\Scripts\activate # Windows 
 </pre>
 <br/>
-<b>Step 4.</b> Install dependencies and add the virtual environment to the Python Kernel
+<b>Step 4.</b> Install dependencies and add the virtual environment to the Python Kernel.
 <pre>
 python -m pip install --upgrade pip
 pip install ipykernel
@@ -30,7 +30,7 @@ python -m ipykernel install --user --name=tfodj
 <br /><br/>
 <img src="https://i.postimg.cc/4NM5pY2Q/2.png"> 
 <br/>
-<b>Step 6.</b> All folders and annotations should be split between the following two folders either manually as shown below
+<b>Step 6.</b> All folders and annotations should be split between the following two folders either manually, as shown below
 <pre>
 \TFOD\Tensorflow\workspace\images\train
 \TFOD\Tensorflow\workspace\images\test
