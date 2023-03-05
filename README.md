@@ -1,5 +1,5 @@
 # Tensorflow Object Detection Walkthrough
-<p>In this Notebook, You should follow the <b>Tensorflow Object Detection API</b> and a pre-trained model <b>ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8</b> to implement your custom object detection model. I used all of these to train an object detection model that can detect some Sign Language objects like Hello, ThumbsUp, ThumbsDown, ThankYou, and LiveLong, but Maybe you want to use this to train your intended objects.
+<p>In this Notebook, You should follow the <b>Tensorflow Object Detection API</b> and a pre-trained model such as <b>ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8</b> or other pre-trained models provided in <a href='https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md'> Tensorflow Model Zoo</a>to implement your custom object detection model, but I recommend using the same model that told because It has the acceptable, good speed(22ms) and mAP(22.2). I used all of these to train an object detection model that can detect some Sign Language objects like Hello, ThumbsUp, ThumbsDown, ThankYou, and LiveLong, but Maybe you want to use these to train your intended objects.
 This Notebook is done thanks to the different sources on the internet.
 <br /><br/>
 <img src="https://i.postimg.cc/zXSzghG9/1.jpg">
