@@ -1,5 +1,5 @@
 # Tensorflow Object Detection Walkthrough
-[![License: MIT](https://img.shields.io/github/license/amirho3einsedaghati/TFOD?color=yellow)](https://github.com/amirho3einsedaghati/TFOD/)
+[![License: MIT](https://img.shields.io/github/license/amirho3einsedaghati/TFOD?color=yellow)](https://github.com/amirho3einsedaghati/TFOD/blob/master/LICENSE)
 [![GitHub repo size](https://img.shields.io/github/repo-size/amirho3einsedaghati/TFOD?color=red)](https://github.com/amirho3einsedaghati/TFOD/)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/amirho3einsedaghati/TFOD?color=yellow)](https://github.com/amirho3einsedaghati/TFOD/pulls)
 [![GitHub issues](https://img.shields.io/github/issues-raw/amirho3einsedaghati/TFOD?color=red)](https://github.com/amirho3einsedaghati/TFOD/issues)
